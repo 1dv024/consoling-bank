@@ -1,10 +1,11 @@
-# <i class="fa fa-laptop"></i> Tröstrika banken
+# Tröstrika banken
 
+- [GitBook](https://coursepress.gitbook.io/1dv024/ovningsuppgifter/del-2/trostrika-banken)
+- [Lösningsförslag](https://github.com/1dv024/exercise-solution-proposals/tree/master/exercise-consoling-bank)
 
 Till denna övningsuppgift medföljer ett projekt där en klass, `Account`, saknas. Klassen `Program` och dess `Main`-metod finns redan definierad. Din uppgift är att skriva en klassdeklaration för den saknade klassen, så att koden i `Main` kan köras utan problem och ger en utskrift enligt bilden nedan.
 
-<div class="clear">
-<pre class="console floated" style="width:60%">Sparkap Ital försöker sätta in en summa mindre än 0.
+```Sparkap Ital försöker sätta in en summa mindre än 0.
 The amount can not be less than 0.
 15672	Sparkap Ital	2.559,37 kr
 
@@ -24,7 +25,7 @@ Alla konton
 15672	Sparkap Ital	2.067,28 kr
 78153	Fatti Glapp	17,72 kr
 93781	Massap Engar	16.424.866,24 kr</pre>
-</div>
+```
 
 <figcaption>
 Figur 1. Utskrift efter att klassen <code>Account</code> har implementerats korrekt.
@@ -65,7 +66,7 @@ För att sätta in pengar på kontot anropar du metoden `Deposit()`. Du måste k
 
 #### DisplayAccount
 
-Då du vill presentera ett bankonto anropar du metoden `DisplayAccount()`. Bankkontonummer, innehavarens namn samt saldot ska presenteras. Använd tabbtecken (`\t`) för att separera de olika värdena åt. För att presentera ett tal som en valuta använder du dig av formatspecificeraren `c`, t.ex. `{0:c}`.
+Då du vill presentera ett bankkonto anropar du metoden `DisplayAccount()`. Bankkontonummer, innehavarens namn samt saldot ska presenteras. Använd tabbtecken (`\t`) för att separera de olika värdena åt. För att presentera ett tal som en valuta använder du dig av formatspecificeraren `c`, t.ex. `{0:c}`.
 
 #### Withdraw
 
@@ -123,7 +124,7 @@ static void Main()
 }
 ```
 
-## <i class="fa fa-flag-checkered"></i> Mål
+## Mål
 
 Efter att ha gjort uppgiften ska du kunna:
 
@@ -133,15 +134,10 @@ Efter att ha gjort uppgiften ska du kunna:
     - egenskaper som bara har en `get`-metod kan trots det tilldelas ett värde i konstruktorn (s.k. _immutable property_).
 - Kunna använda en privat symbolisk konstant i en klass.
 
-## <i class="fa fa-lightbulb-o"></i> Tips
+## Tips
 
 Läs om:
 
 - Grunderna om klasser och objekt hittar du i inledningen av kapitel 5, som bl.a. tar upp saker som konstruktorer (_constructors_), accessmodifierare (_access modifiers_), fält (_fields_) och egenskaper (_properties_).
 - Konstant som fält i kurslitteraturen, kapitel 5, under rubriken _”Encapsulating the Data”_.
 - Grunderna i hur du kastar undantag hittar du i inledningen av kapitel 10.
-
-## <i class="fa fa-flask"></i> Lösningsförslag
-<ul class="fa-ul fa-border exercise-info">
-<li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-solution-proposals/tree/master/exercise-consoling-bank">https://github.com/1dv024/exercise-solution-proposals/tree/master/exercise-consoling-bank</a></li>
-</ul>
